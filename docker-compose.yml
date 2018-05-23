@@ -1,0 +1,7 @@
+version: '3'
+services:
+  taxi-booking-service:
+    build: .
+    image: blown302/taxi-booking-service
+    ports:
+      - 8080:8080

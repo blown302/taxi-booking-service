@@ -1,0 +1,27 @@
+{
+  "name": "taxi-booking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node app/app",
+    "test": "mocha --recursive"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "big-integer": "^1.6.28",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "joi": "^13.3.0",
+    "lodash": "^4.17.10",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "sinon": "^5.0.7"
+  }
+}
