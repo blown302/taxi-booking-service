@@ -72,6 +72,11 @@ In order to advance time an endpoint has been provided to advance time one unit.
 
 POST to `/api/tick`
 
+## Cars Resource
+GET `/api/cars`
+
+Gets all cars in the current world. Good for seeing the status of the fleet.
+
 ## Postman Collection
 
 Sample calls have been provided in the `postman` directory of this repo.
