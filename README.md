@@ -9,7 +9,7 @@ Exercise for a taxi booking service. Tracks 3 taxis in a 2D grid.
 Clone repository and run `npm i` to install dependencies. Then `npm start` to run the service.
 
 ## Run Tests with Docker
-`docker run --rm --name taxi-service blown302/taxi-booking-service npm test`
+`docker run --rm --name taxi-service-test blown302/taxi-booking-service npm test`
 
 ## Run Tests with node 8
 run `npm test` after installing dependencies.
